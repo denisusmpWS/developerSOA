@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: proy-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/denisusmpWS/developerSOA.git
+          force-pull: true
+spring:
+  security:
+    user:
+      name: root
+      password: secret3
+server:
+  port: 5005
