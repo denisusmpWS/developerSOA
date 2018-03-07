@@ -6,12 +6,6 @@ spring:
       server:
         git:
           uri: https://github.com/denisusmpWS/developerSOA.git
-          search-paths: classpath://default
           force-pull: true
-spring:
-  security:
-    user:
-      name: root
-      password: secret3
 server:
   port: 5005
