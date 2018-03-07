@@ -6,6 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/denisusmpWS/developerSOA.git
+          search-paths: classpath://default
           force-pull: true
 spring:
   security:
